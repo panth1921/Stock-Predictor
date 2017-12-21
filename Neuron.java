@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Neuron {
 
 	
@@ -17,12 +16,13 @@ public class Neuron {
 	
 	
 	public static void main(String[] args) {
-		Network network = new Network();
+		Prediction prediction = new Prediction();
 		
 		
-		network.backpropagate();
+		prediction.backpropagate();
 		
 	}
 	
 	
 }
+
